@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="testngBasics(failed)">
+    <classes>
+      <class name="TestNGBasics.DependMethod">
+        <methods>
+          <include name="Homepage"/>
+          <include name="search"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNGBasics.DependMethod -->
+    </classes>
+  </test> <!-- testngBasics(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

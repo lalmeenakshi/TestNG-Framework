@@ -1,0 +1,23 @@
+TDD- Test Driven DEvelopment
+TestNG- unit test framework
+Purpose- design test cases in a systamatic way.
+Generate good html report.
+Provide lot of annotation.
+Define priority,sequence
+Grouping 
+Data provider
+Open source
+Available in the form of jar files
+only applicable with java.
+No main method for TestNG.
+@BeforeSuite-1st preference
+@BeforeTest-2nd preference
+@BeforeClass-3rd preference
+Invocation count- used to repeat test cases. 
+Handle exception we use expectedException keyword.
+Data driven from different resources-
+1.excel sheet
+2.Properties file
+3.test.xml.
+4.Xml files
+5.JSON file

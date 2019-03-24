@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" >
+  <test name="testngBasics" >
+  <parameter name="url" value="https://www.facebook.com/"/>
+  <parameter name="username" value="lal.meenakshi@gmail.com"/>
+  <parameter name="password" value="Passface1$"/>
+  
+    <classes>
+      
+       <class name="TestNGBasics.ParameterTest" />
+     <class name="TestNGBasics.DependMethod" />
+       <class name="TestNGBasics.GoogleTest" />
+       <class name="TestNGBasics.InnvocationCountTest" />
+  </classes>
+  </test>
+</suite>
